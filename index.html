@@ -6,14 +6,17 @@
     <link rel="shortcut icon" href="ice_wolz.png">
     <style>
         body {
-            background-color: #333; 
+            background-color: #333;
+            margin: 0;
+            font-family: Arial, sans-serif;
         }
-        
+
         .header {
             text-align: center;
             padding: 20px;
+            color: #fff;
         }
-        
+
         .profile-picture {
             width: 150px;
             height: 150px;
@@ -21,31 +24,80 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
             margin: 20px auto;
         }
-        
+
         .social-buttons {
             display: flex;
             justify-content: center;
             margin-top: 20px;
+            flex-wrap: wrap;
+            gap: 15px;
         }
-        
+
         .social-button {
-            width: 40px;
-            height: 40px;
+            width: 50px;
+            height: 50px;
             border-radius: 50%;
-            background-color: #333; 
+            background-color: #333;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
             margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             cursor: pointer;
+            transition: all 0.3s ease;
         }
-        
+
         .social-button:hover {
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+            background-color: #444;
         }
-        
+
         .social-button i {
-            color: #fff; 
-            font-size: 20px;
-            line-height: 40px;
+            color: #fff;
+            font-size: 24px;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 600px;
+            height: 152px;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+
+        /* Mobile responsive styles */
+        @media (max-width: 768px) {
+            .profile-picture {
+                width: 120px;
+                height: 120px;
+            }
+
+            .social-button {
+                width: 45px;
+                height: 45px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 152px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .profile-picture {
+                width: 100px;
+                height: 100px;
+            }
+
+            .social-button {
+                width: 40px;
+                height: 40px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 130px;
+            }
         }
     </style>
 </head>
@@ -66,8 +118,8 @@
                 <i class="fab fa-spotify"></i>
             </a>
         </div>
-        <!-- Spotify Play Button -->
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6cOk7Ry9kZmnNAzVscxwnw?utm_source=generator&theme=0" width="40%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <!-- Spotify Play Button with new track -->
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6Ear9bhjbNi2oaqv5qlqlM?utm_source=generator&theme=0" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
 </body>
 </html>
