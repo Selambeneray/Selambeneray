@@ -1,4 +1,4 @@
-## Hi there 👋
+## Selam Ben Eray Asıl Olarak Frontend Geliştiricisiyim Ama Başka Teknolojileri Kullanarak Daha Gelişmiş Projelerde Yapıyorum İşte Yaptığım Bazı Açık Kaynak Kodlu Projelerim.
 
 <!--
 **Selambeneray/Selambeneray** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
